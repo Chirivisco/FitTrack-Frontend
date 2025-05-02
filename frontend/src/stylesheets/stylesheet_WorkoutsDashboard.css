@@ -1,0 +1,125 @@
+.workouts-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.workouts-header {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workouts-title {
+  color: #2196F3;
+  font-weight: bold !important;
+}
+
+.workouts-back-button {
+  background: linear-gradient(45deg, #2196F3 30%, #64B5F6 90%) !important;
+  color: white !important;
+  font-weight: bold !important;
+  transition: transform 0.2s !important;
+}
+
+.workouts-back-button:hover {
+  transform: scale(1.05);
+}
+
+.workouts-button {
+  background: linear-gradient(45deg, #2196F3 30%, #64B5F6 90%) !important;
+  color: white !important;
+  font-weight: bold !important;
+  transition: transform 0.2s !important;
+}
+
+.workouts-button:hover {
+  transform: scale(1.05);
+}
+
+.workouts-user-card {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
+  background: white !important;
+}
+
+.workouts-user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.workouts-card {
+  border-radius: 10px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.2s !important;
+}
+
+.workouts-card:hover {
+  transform: translateY(-5px);
+}
+
+.workouts-day-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.workouts-exercise-item {
+  background-color: white;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.workouts-exercise-details {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.workouts-action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.workouts-dialog {
+  border-radius: 10px !important;
+}
+
+.workouts-dialog-title {
+  background: linear-gradient(45deg, #2196F3 30%, #64B5F6 90%) !important;
+  color: white !important;
+  padding: 1rem !important;
+}
+
+.workouts-error {
+  margin-bottom: 1rem;
+  border-radius: 8px !important;
+}
+
+.workouts-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.workouts-form-day {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.workouts-form-exercise {
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+} 

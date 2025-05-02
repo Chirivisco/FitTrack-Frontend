@@ -1,0 +1,135 @@
+.client-dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.client-dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.client-dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.client-logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.client-logout-button:hover {
+    background-color: #c82333;
+}
+
+.client-dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.client-dashboard-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.client-dashboard-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.client-workouts-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.client-workout-day {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 150px;
+}
+
+.client-workout-day-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.client-workout-exercise {
+    background: white;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.client-workout-exercise-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.client-workout-exercise-details {
+    font-size: 14px;
+    color: #666;
+}
+
+.client-measurements-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.client-measurement-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.client-measurement-date {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.client-measurement-data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.client-measurement-value {
+    background: #f5f5f5;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.client-measurement-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.client-measurement-number {
+    font-weight: bold;
+    color: #333;
+}
+
+.client-progress-chart {
+    height: 300px;
+    margin-top: 20px;
+} 
